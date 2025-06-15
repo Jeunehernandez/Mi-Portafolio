@@ -67,9 +67,7 @@
           class="bg-imagen-perfil w-72 h-72 bg-cover bg-center rounded-full border-solid border-2 border-color-secundario"
         ></div>
 
-        <article
-          class="space-y-3 text-center text-wrap md:text-left md:justify-self-start"
-        >
+        <article class="space-y-3 text-left text-wrap md:justify-self-start">
           <h1 class="text-2xl font-bold md:text-4xl">Josué Hernández</h1>
           <h2 class="text-xl text-color-secundario tracking-wider">
             Desarrollador de Software
@@ -80,7 +78,7 @@
             con las últimas tendencias tecnológicas para desarrollar soluciones
             efectivas y de impacto.
           </p>
-          <div class="flex items-center justify-center gap-5 md:justify-start">
+          <div class="flex items-center justify-start gap-8 md:gap-5">
             <a
               href="./docs/CV_Josue_Hernandez.pdf"
               download="CV_Josué_Hernández"
@@ -167,50 +165,6 @@
               >
             </div>
           </article>
-
-          <article
-            class="shadow-[0px_0px_12px_-4px_#303030] max-w-xs rounded-2xl overflow-hidden bg-[#303030] self-center flex flex-col h-[400px]"
-          >
-            <img
-              src="./images/imagenes-proyectos/TicTacToe.png"
-              class="h-48 w-full object-cover"
-              alt="Tic Tac Toe"
-            />
-            <div class="px-3 py-5 text-wrap flex flex-col space-y-2 flex-grow">
-              <h2 class="text-center text-lg">Tic Tac Toe</h2>
-              <p class="text-slate-300 text-sm flex-grow">
-                Juego clásico de Tic Tac Toe, enfocado en la funcionalidad y
-                experiencia del usuario, creado con HTML, CSS y JavaScript.
-              </p>
-              <a
-                class="bg-[#ff4100] text-sm px-3 py-1 rounded-lg w-min ml-auto hover:bg-[#df3900]"
-                href="https://jeunehernandez.github.io/Juego-Tic-Tac-Toe/"
-                >Ir</a
-              >
-            </div>
-          </article>
-
-          <article
-            class="shadow-[0px_0px_12px_-4px_#303030] max-w-xs rounded-2xl overflow-hidden bg-[#303030] self-center flex flex-col h-[400px]"
-          >
-            <img
-              src="./images/imagenes-proyectos/to-do-list.png"
-              class="h-48 w-full object-cover"
-            />
-            <div class="px-3 py-5 text-wrap flex flex-col space-y-2 flex-grow">
-              <h2 class="text-center text-lg">to do list</h2>
-              <p class="text-slate-300 text-sm flex-grow">
-                aplicación de lista de tareas utilizando HTML, CSS y JavaScript,
-                diseñada para ayudar a los usuarios a organizar sus actividades
-                de manera eficiente.
-              </p>
-              <a
-                class="bg-[#ff4100] text-sm px-3 py-1 rounded-lg w-min ml-auto hover:bg-[#df3900]"
-                href="https://jeunehernandez.github.io/to-do-list/"
-                >Ir</a
-              >
-            </div>
-          </article>
         </div>
       </section>
     </main>
@@ -290,7 +244,7 @@
             type="email"
             placeholder="Email"
             name="email"
-            class="font-principal bg-transparent py-1 border-2 rounded-lg border-color-secundario outline-none px-1"
+            class="font-principal bg-transparent py-1 border-2 rounded-lg border-color-secundario outline-none px-2 md:w-2/3"
           />
           <textarea
             id="mensaje"
@@ -298,13 +252,13 @@
             required
             placeholder="Mensaje"
             name="mensaje"
-            class="bg-transparent outline-none border-2 border-color-secundario rounded-lg min-h-28 resize-none px-1"
+            class="bg-transparent outline-none border-2 border-color-secundario rounded-lg min-h-36 resize-none px-2 py-1"
           ></textarea>
           <button
             type="submit"
             id="button"
             value="Send Email"
-            class="bg-[#002ad6] hover:bg-[#002ad6]/90 rounded-lg py-2"
+            class="bg-[#002ad6] hover:bg-[#1240ff] rounded-lg py-2"
           >
             Enviar
           </button>
